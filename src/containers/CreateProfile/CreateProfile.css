@@ -1,0 +1,89 @@
+.create {
+	display: grid;
+	place-items: center;
+	height: 100vh;
+}
+
+.create__form {
+	background-color: rgb(232, 229, 241);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 20px;
+	max-width: 500px;
+	width: 100%;
+	height: 70%;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+		rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+	border-radius: 10px;
+}
+.create__form > h1 {
+	font-family: "Ubuntu";
+	text-align: center;
+}
+.create__info {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	margin-top: 10%;
+}
+.create__name {
+	color: rgb(96, 74, 224);
+}
+.create__info > label {
+	font-size: 16px;
+	font-weight: bold;
+	font-family: "Ubuntu", sans-serif;
+	/* color: rgba(96, 74, 224); */
+	color: black;
+	margin: 15px 0px;
+	text-transform: capitalize;
+}
+
+.create__info > input {
+	padding: 20px;
+	border: 2px dashed rgb(96, 74, 224);
+	outline: none;
+	background-color: rgb(248, 245, 255);
+	margin-bottom: 20px;
+	border-radius: 10px;
+}
+
+.create__info > input:focus {
+	border: 2px solid rgb(96, 74, 224);
+}
+
+.create__info > textarea {
+	padding: 20px;
+	border: 2px dashed rgb(96, 74, 224);
+	outline: none;
+	background-color: rgb(248, 245, 255);
+	border-radius: 10px;
+	margin-bottom: 20px;
+}
+
+.create__info > textarea:focus {
+	border: 2px solid rgb(96, 74, 224);
+}
+
+.create__btn {
+	padding: 20px;
+	width: 100%;
+	/* margin-top: 20px; */
+	border-radius: 4px;
+	border: none;
+
+	background-color: rgb(96, 74, 224);
+	color: white;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1.5px;
+	font-family: "Ubuntu", sans-serif;
+
+	cursor: pointer;
+}
+
+.create__btn:hover {
+	background-color: black;
+	color: white;
+}
